@@ -11,7 +11,7 @@ By analyzing the expression of 64 core OCM genes using transcriptomic data from 
 
 ## 🗂️ Repository Structure
 
-* **`Code/`**: Contains all Python notebooks used for the computational analyses in the manuscript.
+* **`Analysis-Code/`**: Contains all Python notebooks used for the computational analyses in the manuscript.
 * **`Raw Data.zip`**: A compressed directory containing the datasets, clinical metadata, and output assets necessary to reproduce the findings of this study.
 
 ## 💻 Computational Analyses Included
