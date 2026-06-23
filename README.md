@@ -4,6 +4,8 @@ Welcome to the official repository for the manuscript: **"One-Carbon Metabolic R
 
 This repository houses the computational analysis code, raw datasets, and generated figures used to investigate how the One-Carbon Metabolism (OCM) network is rewired in IDH1-mutant gliomas and contributes to prognostic heterogeneity.
 
+**Data Availability Note:** Due to file size constraints, the raw datasets used to execute the computational pipelines are hosted externally as a GitHub Release and are not located within the main branch file tree (see GitHub Release **v1.0-Raw-Data-OCM-Divergence**).
+
 ## 📖 Abstract Summary
 IDH1 mutations in diffuse gliomas drive epigenetic remodelling and metabolic stress, primarily through 2-hydroxyglutarate accumulation. This study integrates transcriptional profiling to define an OCM signature that stratifies patient survival to define biological states for identifying therapeutic vulnerabilities in IDH-mutant gliomas. 
 
@@ -12,7 +14,7 @@ By analyzing the expression of 64 core OCM genes using transcriptomic data from 
 ## 🗂️ Repository Structure
 
 * **`Analysis-Code/`**: Contains all Python notebooks used for the computational analyses in the manuscript.
-* **`Raw Data.zip`**: A compressed directory containing the datasets, clinical metadata, and output assets necessary to reproduce the findings of this study.
+* **`Raw Data Archive`**: The compressed directory (Raw Data OCM Divergence.zip) containing the primary datasets, clinical metadata, and output assets of this study has been formally published and is hosted in the GitHub Release **v1.0-Raw-Data-OCM-Divergence**.
 
 ## 💻 Computational Analyses Included
 
@@ -34,5 +36,6 @@ The Python scripts and notebooks in this repository cover the following methodol
 
 1.  Clone this repository to your local machine:
     `git clone https://github.com/mayankbajaj17/OCM-Divergence.git`
-2.  Unzip the `Raw Data.zip` file to access the underlying expression matrices and generated figures.
-3.  Open the scripts within the `Code/` directory using Jupyter Notebook, Google Colab, or your preferred Python IDE to review or rerun the analyses.
+2.  Navigate to the Releases section on the right-hand sidebar of this repository and download the `Raw Data OCM Divergence.zip` archive from the `v1.0-Raw-Data-OCM-Divergence` release.
+3.  Unzip the `Raw Data OCM Divergence.zip` file to access the underlying expression matrices and generated figures.
+4.  Open the scripts within the `Analysis-Code/` directory using Jupyter Notebook, Google Colab, or your preferred Python IDE to review or rerun the analyses.
